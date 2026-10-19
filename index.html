@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cube Coach Support</title>
+<meta name="description" content="Help and contact for Cube Coach, the Rubik's cube solving app by Retro Drop Games.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d1d1f;
+    --muted: #6e6e73;
+    --accent: #009e49;
+    --card: #f5f5f7;
+    --rule: #d2d2d7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --text: #f5f5f7;
+      --muted: #a1a1a6;
+      --accent: #30d158;
+      --card: #1c1c1e;
+      --rule: #38383a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 72px; }
+  .stickers { display: grid; grid-template-columns: repeat(3, 14px); gap: 3px; margin-bottom: 20px; }
+  .stickers span { width: 14px; height: 14px; border-radius: 3px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .meta { color: var(--muted); margin: 0 0 32px; }
+  .contact { background: var(--card); border-radius: 14px; padding: 18px 20px; margin-bottom: 36px; }
+  h2 { font-size: 21px; margin: 36px 0 8px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="stickers" aria-hidden="true">
+    <span style="background:#ffd500"></span><span style="background:#009e49"></span><span style="background:#0051ba"></span>
+    <span style="background:#f7f7f7;outline:1px solid var(--rule)"></span><span style="background:#009e49"></span><span style="background:#ff8000"></span>
+    <span style="background:#009e49"></span><span style="background:#dc1a21"></span><span style="background:#009e49"></span>
+  </div>
+  <h1>Cube Coach Support</h1>
+  <p class="meta">Retro Drop Games</p>
+
+  <div class="contact">
+    <p>Need help, found a bug, or have an idea? Email
+    <a href="mailto:support@retrodropgames.com">support@retrodropgames.com</a>. If you're testing
+    with TestFlight, you can also send feedback right from the app: take a screenshot or shake
+    your phone.</p>
+  </div>
+
+  <h2>Scanning isn't reading my colors right</h2>
+  <p>Use <em>Teach my colors</em> on the home screen so Cube Coach learns how your cube looks in
+  your light. Bright, even light helps, and so does filling the on-screen grid with one side of
+  the cube. You can always fix a square by tapping it on the check screen.</p>
+
+  <h2>Which cubes work?</h2>
+  <p>Standard 3×3 cubes with the usual colors: white opposite yellow, green opposite blue, and red
+  opposite orange.</p>
+
+  <h2>Privacy</h2>
+  <p>Cube Coach collects no personal information and never sends anything off your device. Read
+  the full <a href="privacy/">privacy policy</a>.</p>
+
+  <footer>© 2026 Retro Drop Games</footer>
+</main>
+</body>
+</html>
